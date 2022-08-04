@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: white;
+    background-color: #eef5fb;
     font-size: 62.5%;
 }
 
@@ -30,14 +30,18 @@ p {
     margin-left: 2rem;
 }
 
+ul {
+    margin-bottom: 0;
+}
+
 /*----------header----------*/
 
 header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    grid-area: header;
     width: 100%;
+    height: 80px;
     background-color: white;
     border-bottom: 2px solid black;
 }
@@ -67,16 +71,6 @@ header {
     margin-left: 2rem;
 }
 
-.menu-icon img {
-    height: 30px;
-    width: 30px;
-    border-radius: 2px;
-}
-
-.menu-icon, #check {
-    display: none;
-}
-
 /*--------fin header--------*/
 
 /*----------main----------*/
@@ -92,7 +86,31 @@ main img {
 
 .div__info {
     background-color: #5d739d;
-    height: 150px;
+    justify-content: center;
+}
+
+.number-dato-md {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 6rem;
+    width: 100%;
+    text-align: right;
+}
+
+.texto-dato-md {
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.2rem;
+    width: 100%;
+    text-align: left;
+    padding-top: 15px;
+    line-height: 90%;
+}
+
+.div__dato {
+    padding: 0 35px;
 }
 
 /*--------fin main--------*/
@@ -102,27 +120,25 @@ main img {
 .la-empresa {
     display: flex;
     align-items: center;
-    margin-top: 1rem;
-}
-
-#la-empresa {
-    grid-area: le;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 #la-empresa h2 {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 30px;
 }
 
-#la-empresa p {
+#la-empresa .p-le {
     width: 50%;
-    margin-bottom: 1rem;
-    margin-right: 2rem;
+    margin-right: 15px;
 }
 
 #la-empresa img {
     width: 50%;
+    margin-right: 2rem;
 }
 
 /*------fin la-empresa------*/
@@ -131,33 +147,6 @@ main img {
 
 .page-servicios {
     padding: 3rem 0;
-    display: block;
-}
-
-.container {
-    grid-area: serv;
-    display: block;
-    width: 300%;
-    margin-right: 100%;
-    margin-left: 100%;
-}
-
-.j-c-c {
-    justify-content: center;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-
-.servicios-c {
-    position: relative;
-    width: 100%;
-    margin-right: 15px;
-    margin-left: 15px;
 }
 
 .titulo {
@@ -168,17 +157,6 @@ main img {
 
 .card-color {
     background-color: #eef5fb;
-}
-
-.p-4 {
-    padding: 2rem;
-}
-
-.servicios-d {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 .card-title {
@@ -264,24 +242,30 @@ form textarea {
 
 /*-----------footer-----------*/
 
-footer {
-    display: flex;
-    flex-direction: row;
+.footer__left {
+    display: block;
     justify-content: center;
     align-items: center;
-    grid-area: footer;
-    margin-top: 2rem;
 }
 
-.pie__sede {
+.footer__right {
     display: block;
+    justify-content: center;
+}
+
+.text-style {
+    font-size: 15px;
+}
+
+.p-footer {
+    margin-left: 0;
 }
 
 /*--------fin footer--------*/
 
 /*-----------grids----------*/
 
-.grid__index {
+/* .grid__index {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.75fr auto auto 1fr;
@@ -290,17 +274,16 @@ footer {
     "main main"
     "le le"
     "footer footer";
-}
+} */
 
-.grid__servicios {
+/* .grid__servicios {
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 0.75fr auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 0.75fr 1fr;
     grid-template-areas: 
     "header header header"
-    "serv serv serv"
     "footer footer footer";
-}
+} */
 
 .grid__sucursales {
     display: grid;
@@ -312,81 +295,10 @@ footer {
     "footer footer";
 }
 
-@media screen and (max-width: 768px) {
-    .checkbtn {
-        display: block;
-    }
+ /* @media screen and (max-width: 768px) { */
 
-    header {
-        display: flex;
-        position: fixed;
-        height: 21.5%;
-        border-top: 2px solid black;
-    }
-
-    .logo {
-        width: 100%;
-    }
-    .menu-icon {
-        display: block;
-        position: fixed;
-        top: 22px;
-        right: 20px;
-        cursor: pointer;
-    }
-
-    .menu ul {
-        display: block;
-        position: fixed;
-        top: 72px;
-        left: -100%;
-        background: #eef5fb;
-        width: 100%;
-        height: 100vh;
-        right: 0;
-    }
-
-    .menu ul li {
-        padding: 2rem;
-        display: flex;
-        justify-content: center;
-        margin: 0;
-    }
-
-    .menu ul li:last-child {
-        background: none;
-        padding: 3rem;
-    }
-
-    #check:checked ~ ul{
-        left: 0;
-    }
-
-    .div__info {
-        display: none;
-    }
-
-    main img {
-        border-bottom: 2px solid black;
-    }
-
-    .la-empresa {
-        display: block;
-    }
-
-    #la-empresa p {
-        width: 90%;
-        margin-right: 3rem;
-        text-align: center;
-    }
-
-    #la-empresa img {
-        width: 90%;
-        margin-left: 3rem;
-    }
-
-    /*-------servicios--------*/
-    .grid__servicios {
+    /* -------servicios--------
+     .grid__servicios {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 0.25fr 0.5fr 0.25fr;
@@ -394,32 +306,13 @@ footer {
         "header"
         "serv"
         "footer";
-    }
+    } */
 
-    .container {
-        max-width: 540px;
-        margin-right: 10%;
-        margin-left: 10%;
-        padding-top: 65px;
-    }
-
-    .row {
-        margin-left: 2rem;
-    }
-    
-    .servicios-c {
-        position: static;
-    }
-    
-    .titulo {
+    /* .titulo {
         padding-top: 10px;
-    }
-    
-    .servicios-d {
-        position: static;
-    }
+    } */
 
-    .grid__index {
+    /* .grid__index {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 0.25fr 0.01fr 0.5fr 0.25fr;
@@ -428,6 +321,11 @@ footer {
         "main"
         "le"
         "footer";
-    }
+    } */
 
-}
+    @media screen and (min-width:576px) {
+        .footer__center {
+            display: flex;
+            justify-content: center;
+        }
+    }
