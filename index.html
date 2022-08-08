@@ -15,69 +15,51 @@
     <title>BA Express | Envíos rápidos en Buenos Aires</title>
 </head>
 <body>
-    <header class="bg-light">
-        <a class="logo" href="../index.html"><img src="./img/logo.png" alt="logo"></a>
-        <nav class="menu">
-            <ul class="menu__items">
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="#la-empresa">La empresa</a></li>
-                <li><a href="./pages/servicios.html">Servicios</a></li>
-                <li><a href="./pages/sucursales.html">Sucursales</a></li>
-                <li><a href="./pages/contacto.html">Contacto</a></li>
-            </ul>
+    <header class="menu">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./img/logoblanco.png" alt="BA Express">
+                </a>
+                <button class="navbar-toggler togglerColor" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+                    <span class="navbar-toggler-icon togglerBars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ms-auto px-5 mb-2 mb-lg-0">
+                        <li class="px-2 nav-item">
+                            <a class="menu-item nav-link" href="./index.html">Inicio</a>
+                        </li>
+                        <li class="px-2 nav-item">
+                            <a class="menu-item nav-link" href="./index.html#la-empresa">La Empresa</a>
+                        </li>
+                        <li class="px-2 nav-item">
+                            <a class="menu-item nav-link" href="./pages/servicios.html">Servicios</a>
+                        </li>
+                        <li class="px-2 nav-item">
+                            <a class="menu-item nav-link" href="./pages/sucursales.html">Sucursales</a>
+                        </li>
+                        <li class="ps-2 nav-item">
+                            <a class="menu-item nav-link" href="./pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
-        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./img/bannermain.svg" class="d-block w-100" alt="...">
-              </div>
-              <!-- <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
-              </div>
-            </div> -->
-        </div>
-        </main>  
-        <div class="div__info d-none d-md-block col-12">
-            <div class="py-2 d-flex justify-content-center align-items-center">
-                <div data-aos="fade-up">
-                    <div class="div__dato d-flex align-items-center">
-                        <span class="number-dato-md mr-3">100</span>
-                        <span class="texto-dato-md">MUNICIPIOS</span>
-                    </div>
-                </div>
-                <div data-aos="fade-up">
-                    <div class="div__dato d-flex align-items-center">
-                        <span class="number-dato-md mr-3">30</span>
-                        <span class="texto-dato-md">SUCURSALES</span>
-                    </div>
-                </div>
-                <div data-aos="fade-up">
-                    <div class="div__dato d-flex align-items-center">
-                        <span class="number-dato-md mr-3">+20.000</span>
-                        <div class="d-flex flex-column">
-                            <span class="texto-dato-md p-0">ENTREGAS</span>
-                            <span class="texto-dato-md p-0 mt-1">AL MES</span>
-                        </div>
-                    </div>
-                </div>
+        <img src="./img/bannermain.svg">
+    </main>
+    <section id="la-empresa">
+        <h2>La empresa</h2>
+        <div class="la-empresa">
+            <div class="p-le" data-aos="zoom-in-right">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quibusdam doloremque repellat at beatae vero! Molestiae aliquam ullam nisi vitae error suscipit dignissimos, quibusdam, illo optio fuga repudiandae animi ut necessitatibus temporibus eveniet iusto vero officia itaque quia voluptatum, a laboriosam? Mollitia ratione, autem perspiciatis nam tempore repellat soluta nostrum. Officiis excepturi, dolor rerum, harum dicta tempore autem blanditiis optio adipisci dolore ullam officia earum alias eos commodi impedit, natus magnam aut totam sapiente. Obcaecati aut minus quas eaque laudantium cum dolore consectetur pariatur sapiente, illo, deleniti praesentium quam ex reiciendis, maxime cumque nihil nisi molestiae totam voluptas adipisci porro officia ipsum tenetur. Voluptas hic modi tempora ipsa in facilis odio culpa minima expedita reiciendis porro neque harum, ipsam enim nisi nihil! Quos autem voluptatibus quod, expedita unde, magni animi nulla voluptatum, laudantium nostrum repellat asperiores quasi voluptates! Maiores quod eaque blanditiis aliquid tenetur ipsum architecto saepe velit quibusdam. Voluptas.</p>
             </div>
-        </div>  
-        <section id="la-empresa">
-            <h2>La empresa</h2>
-            <div class="la-empresa">
-                <div class="p-le" data-aos="zoom-in-right">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum quibusdam doloremque repellat at beatae vero! Molestiae aliquam ullam nisi vitae error suscipit dignissimos, quibusdam, illo optio fuga repudiandae animi ut necessitatibus temporibus eveniet iusto vero officia itaque quia voluptatum, a laboriosam? Mollitia ratione, autem perspiciatis nam tempore repellat soluta nostrum. Officiis excepturi, dolor rerum, harum dicta tempore autem blanditiis optio adipisci dolore ullam officia earum alias eos commodi impedit, natus magnam aut totam sapiente. Obcaecati aut minus quas eaque laudantium cum dolore consectetur pariatur sapiente, illo, deleniti praesentium quam ex reiciendis, maxime cumque nihil nisi molestiae totam voluptas adipisci porro officia ipsum tenetur. Voluptas hic modi tempora ipsa in facilis odio culpa minima expedita reiciendis porro neque harum, ipsam enim nisi nihil! Quos autem voluptatibus quod, expedita unde, magni animi nulla voluptatum, laudantium nostrum repellat asperiores quasi voluptates! Maiores quod eaque blanditiis aliquid tenetur ipsum architecto saepe velit quibusdam. Voluptas.</p>
-                </div>
             <img src="https://dummyimage.com/400x325" alt="">
         </div>
     </section>
     <div class="footer container-fluid">
-        <div class="row p-5 pb-2 bg-secondary text-white">
+        <div class="row p-5 pb-2 text-white">
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <img src="./img/logoblanco.png" alt="">
             </div>

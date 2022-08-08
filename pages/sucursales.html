@@ -13,87 +13,399 @@
     <title>Sucursales | BA Express</title>
 </head>
 <body>
-    <header>
-        <a class="logo" href="../index.html"><img src="../img/logo.png" alt="logo"></a>
-        <nav class="menu">
-            <ul class="menu__items">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../index.html#la-empresa">La empresa</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./sucursales.html">Sucursales</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+    <header class="menu">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logoblanco.png" alt="BA Express">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ms-auto px-5 mb-2 mb-lg-0">
+                        <li class="px-2 nav-item">
+                            <a class="menu-item nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="px-2 nav-item">
+                            <a class="menu-item nav-link" href="../index.html#la-empresa">La Empresa</a>
+                        </li>
+                        <li class="px-2 nav-item">
+                            <a class="menu-item nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="px-2 nav-item">
+                            <a class="menu-item nav-link" href="./sucursales.html">Sucursales</a>
+                        </li>
+                        <li class="ps-2 nav-item">
+                            <a class="menu-item nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <div class="container__sucursales">
-        <h2>Sucursales</h2>
-        <ul>
-            <div class="div__sucursal">
-                <div class="sucursal">
-                    <li class="suc">Casa Central - San Isidro</li>
-                    <p>Calle 23, Nº 1659</p>
-                    <p>Horario de atención: 10hs. a 18hs.</p>
+    <h2 class="title-section">Sucursales</h2>
+    <section class="py-4">
+        <div class="container pb-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row">
+                        <div class="container">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header btn-title">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne">
+                                        Zona Norte
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body body-sucursales">
+                                            <div class="row">
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">San Isidro - Casa Central</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Vicente Lopez</p>
+                                                    <p class="data-sucursal">Calle 20, Nº 1350</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Tigre</p>
+                                                    <p class="data-sucursal">Calle 20, Nº 1350</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">San Martín</p>
+                                                    <p class="data-sucursal">Calle 20, Nº 1350</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">San Miguel</p>
+                                                    <p class="data-sucursal">Calle 20, Nº 1350</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Escobar</p>
+                                                    <p class="data-sucursal">Calle 20, Nº 1350</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">San Fernando</p>
+                                                    <p class="data-sucursal">Calle 20, Nº 1350</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Malvinas Argentinas</p>
+                                                    <p class="data-sucursal">Calle 20, Nº 1350</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">José C. Paz</p>
+                                                    <p class="data-sucursal">Calle 20, Nº 1350</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Pilar</p>
+                                                    <p class="data-sucursal">Calle 20, Nº 1350</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header btn-title">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo">
+                                        C.A.B.A.
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body body-sucursales">
+                                            <div class="row">
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Palermo</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Mataderos</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header btn-title">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree">
+                                        Zona Oeste
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body body-sucursales">
+                                            <div class="row">
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Tres de Febrero</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">La Matanza</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Hurlingham</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Ituzaingó</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Moreno</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Morón</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header btn-title">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour">
+                                        Zona Sur
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body body-sucursales">
+                                            <div class="row">
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Avellaneda</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Lanús</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Lomas de Zamora</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Quilmes</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Ezeiza</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Florencio Varela</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Berazategui</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header btn-title">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive">
+                                        Interior
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body body-sucursales">
+                                            <div class="row">
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">La Plata</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Lujan</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Chivilcoy</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Bahía Blanca</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Zarate</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="titulo-ciudad-sucursal">Tandil</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Olavarría</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header btn-title">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix">
+                                        Costa Atlántica
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body body-sucursales">
+                                            <div class="row">
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Partido de La Costa</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Mar del Plata</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                                <div class="my-3 col-md-4 col-12">
+                                                    <p class="title-sucursal">Villa Gesell</p>
+                                                    <p class="data-sucursal">Calle 23, Nº 1659</p>
+                                                    <p class="data-sucursal">Horario de atención: Lunes a viernes de 8 a 16hs.</p>
+                                                    <p class="data-sucursal">Tel.: 11-1111-1111</p>
+                                                    <a class="data-sucursal-link" href="#">sucursal@baexpress.com</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.1189595081983!2d-58.51078472991322!3d-34.47450635490685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb1b56e3ed4e5%3A0x78bc56d8e3c81534!2sB1641%20San%20Isidro%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1657146570669!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="div__sucursal">
-                <div class="sucursal">
-                    <li class="suc">Caseros</li>
-                    <p>Av. San Martin, Nº 2359</p>
-                    <p>Horario de atención: 10hs. a 16hs.</p>
-                </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0132259439656!2d-58.56410958503543!3d-34.603827065010385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb82476cc5c79%3A0xf3bc24e979c39f9b!2sAv.%20San%20Mart%C3%ADn%202359%2C%20B1678GPM%20Caseros%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1657146692434!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="div__sucursal">
-                <div class="sucursal">
-                    <li class="suc">Palermo</li>
-                    <p>Calle 99, Nº 193</p>
-                    <p>Horario de atención: 10hs. a 16hs.</p>
-                </div>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8768554434782!2d-58.428129685036254!3d-34.58198236385478!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb584e261cc41%3A0x44320f58547db0ec!2sDarregueyra%202300%2C%20C1425%20CABA!5e0!3m2!1ses-419!2sar!4v1657146728275!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="div__sucursal">
-                <div class="sucursal">
-                    <li class="suc">Avellaneda</li>
-                    <p>Av. Larralde, Nº 1000</p>
-                    <p>Horario de atención: 10hs. a 16hs.</p>
-                </div>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.11193035439!2d-58.374336379866314!3d-34.67712441547633!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33334e9f4a677%3A0x71d314b2d3f91ea4!2sAv.%20Cris%C3%B3logo%20Larralde%201000-902%2C%20B1873BAH%20Crucecita%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1657146814735!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-            <div class="div__sucursal">
-                <div class="sucursal">
-                    <li class="suc">Mataderos</li>
-                    <p>Av. Directorio, Nº 5600</p>
-                    <p>Horario de atención: 10hs. a 16hs.</p>
-                </div>     
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6563.878800204097!2d-58.49821934870783!3d-34.65622990317307!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc908cdba8aa9%3A0x393dae5e2b45d3ae!2sAv.%20Directorio%205600%2C%20C1440ASU%20CABA!5e0!3m2!1ses-419!2sar!4v1657146843449!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>   
-            </div>
-        </ul>
-    </div>
+        </div>
+    </section>
     <div class="footer container-fluid">
-        <div class="row p-5 pb-2 bg-secondary text-white">
+        <div class="row p-5 pb-2 text-white">
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <img src="../img/logoblanco.png" alt="">
             </div>
             <div class="col-xs-12 col-md-6 col-lg-3">
-                <p>Casa Central</p>
-                <p>Tel.: +54 (9) 1111-1111</p>
-                <p>Lunes a viernes de 10 a 18hs.</p>
+                <h6 class="text-white mb-2 text-style">Casa Central</h6>
+                <p class="p-footer">Tel.: +54 (9) 1111-1111</p>
+                <p class="p-footer">Lunes a viernes de 10 a 18hs.</p>
             </div>
             <div class="col-xs-12 col-md-6 col-lg-3">
-                <p>Ayuda</p>
-                <p>Reclamos: +54 (9) 1111-1111</p>
-                <p>atencion@baexpress.com</p>
+                <h6 class="text-white mb-2 text-style">Ayuda</h6>
+                <p class="p-footer">Reclamos: +54 (9) 1111-1111</p>
+                <p class="p-footer">atencion@baexpress.com</p>
             </div>
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <h6 class="text-white mb-2 text-style">Seguinos en nuestra redes sociales</h6>
                 <ul class="list-unstyled mb-0">
                     <div class="row justify-content-center justify-content-md-start">
                         <div class="col-auto pr-0">
-                            <a href="https://www.instagram.com">
+                            <a class="text-decoration-none" href="https://www.instagram.com">
                                 <li class="text-white text-style text-decoration-none pb-1">Instagram</li>
                             </a>
-                            <a href="https://www.facebook.com">
+                            <a class="text-decoration-none" href="https://www.facebook.com">
                                 <li class="text-white text-style pb-1">Facebook</li>
                             </a>
                         </div>

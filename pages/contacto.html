@@ -13,50 +13,70 @@
     <title>Contacto | BA Express</title>
 </head>
 <body>
-    <header>
-        <a class="logo" href="../index.html"><img src="../img/logo.png" alt="logo"></a>
-        <nav class="menu">
-            <ul class="menu__items">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../index.html#la-empresa">La empresa</a></li>
-                <li><a href="./servicios.html">Servicios</a></li>
-                <li><a href="./sucursales.html">Sucursales</a></li>
-                <li><a href="./contacto.html">Contacto</a></li>
-            </ul>
+    <header class="menu">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../img/logoblanco.png" alt="BA Express">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <ul class="navbar-nav ms-auto px-5 mb-2 mb-lg-0">
+                        <li class="px-2 nav-item">
+                            <a class="menu-item nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="px-2 nav-item">
+                            <a class="menu-item nav-link" href="../index.html#la-empresa">La Empresa</a>
+                        </li>
+                        <li class="px-2 nav-item">
+                            <a class="menu-item nav-link" href="./servicios.html">Servicios</a>
+                        </li>
+                        <li class="px-2 nav-item">
+                            <a class="menu-item nav-link" href="./sucursales.html">Sucursales</a>
+                        </li>
+                        <li class="ps-2 nav-item">
+                            <a class="menu-item nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-    <h2>Contacto</h2>
-    <h3>¡Cotizamos tus envíos en menos de 24 horas!</h3>
-    <form action="">
+    <h2 class="title-section">Contacto</h2>
+    <h3 class="h3-contacto">¡Cotizamos tus envíos en menos de 24 horas!</h3>
+    <p class="p-contacto">Formulario de contacto en proceso</p>
+    <!-- <form action="">
         <input type="text" name="nombre" placeholder="Ingresa tu nombre"><br>
         <input type="email" name="email" placeholder="Ingresa tu email"><br>
         <textarea name="mensaje" placeholder="Ingresa tu consulta"></textarea><br>
         <input class="btn" type="submit" name="enviar" value="Enviar consulta">
-    </form>
+    </form> -->
     <div class="footer container-fluid">
-        <div class="row p-5 pb-2 bg-secondary text-white">
+        <div class="row p-5 pb-2 text-white">
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <img src="../img/logoblanco.png" alt="">
             </div>
             <div class="col-xs-12 col-md-6 col-lg-3">
-                <p>Casa Central</p>
-                <p>Tel.: +54 (9) 1111-1111</p>
-                <p>Lunes a viernes de 10 a 18hs.</p>
+                <h6 class="text-white mb-2 text-style">Casa Central</h6>
+                <p class="p-footer">Tel.: +54 (9) 1111-1111</p>
+                <p class="p-footer">Lunes a viernes de 10 a 18hs.</p>
             </div>
             <div class="col-xs-12 col-md-6 col-lg-3">
-                <p>Ayuda</p>
-                <p>Reclamos: +54 (9) 1111-1111</p>
-                <p>atencion@baexpress.com</p>
+                <h6 class="text-white mb-2 text-style">Ayuda</h6>
+                <p class="p-footer">Reclamos: +54 (9) 1111-1111</p>
+                <p class="p-footer">atencion@baexpress.com</p>
             </div>
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <h6 class="text-white mb-2 text-style">Seguinos en nuestra redes sociales</h6>
                 <ul class="list-unstyled mb-0">
                     <div class="row justify-content-center justify-content-md-start">
                         <div class="col-auto pr-0">
-                            <a href="https://www.instagram.com">
+                            <a class="text-decoration-none" href="https://www.instagram.com">
                                 <li class="text-white text-style text-decoration-none pb-1">Instagram</li>
                             </a>
-                            <a href="https://www.facebook.com">
+                            <a class="text-decoration-none" href="https://www.facebook.com">
                                 <li class="text-white text-style pb-1">Facebook</li>
                             </a>
                         </div>
