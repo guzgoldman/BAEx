@@ -53,11 +53,6 @@ ul {
 }
 
 /*----------main----------*/
-
-main {
-    grid-area: main;
-}
-
 main img {
     display: flex;
     max-width: 100%;
@@ -114,7 +109,6 @@ main img {
 /*--------fin main--------*/
 
 /*--------la-empresa------*/
-
 .la-empresa {
     display: flex;
     align-items: center;
@@ -142,7 +136,6 @@ main img {
 /*------fin la-empresa------*/
 
 /*---------servicios--------*/
-
 .page-servicios {
     padding: 3rem 0;
 }
@@ -181,7 +174,6 @@ main img {
 /*-------fin servicios------*/
 
 /*--------sucursales--------*/
-
 .title-section {
     display: flex;
     justify-content: center;
@@ -221,23 +213,6 @@ main img {
 /*------fin sucursales------*/
 
 /*---------contacto---------*/
-
-/* form input {
-    padding: 1rem;
-    margin: 1rem 1rem 1rem 2rem;
-    width: 275px;
-}
-
-form textarea {
-    margin: 1rem 1rem 1rem 2rem;
-    width: 275px;
-    height: 290px;
-}
-
-.btn {
-    width: 275px;
-} */
-
 .h3-contacto {
     display: flex;
     justify-content: center;
@@ -266,24 +241,23 @@ form textarea {
 /*--------fin footer--------*/
 
 /*-------media queries-------*/
-
-    @media screen and (max-width:1080px) {
-        .la-empresa {
-            display: block;
-        }
-
-        #la-empresa .p-le {
-            width: 100%;
-        }
-
-        .p-le p{
-            margin-right: 2rem;
-            text-align: center;
-            margin-bottom: 2rem;
-        }
-
-        #la-empresa img {
-            width: 95%;
-            margin-left: 1rem
-        }
+@media screen and (max-width:1080px) {
+    .la-empresa {
+        display: block;
     }
+
+    #la-empresa .p-le {
+        width: 100%;
+    }
+
+    .p-le p{
+        margin-right: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    #la-empresa img {
+        width: 95%;
+        margin-left: 1rem
+    }
+}
