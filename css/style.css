@@ -1,263 +1,102 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html {
-    background-color: #eef5fb;
-    font-size: 62.5%;
-}
-
-h1, h2, h3 {
-    font-family: 'Open Sans', sans-serif;
-}
-
-h1, h2 {
-    font-size: 4.4rem;
-}
-
-h3 {
-    font-size: 3.5rem;
-}
-
-p, li, a {
-    font-family: 'Raleway', sans-serif;
-}
-
-p {
-    font-size: medium;
-    margin-left: 2rem;
-}
-
-ul {
-    margin-bottom: 0;
-}
-
-.menu-item {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-    color: white;
-}
-
-.menu {
-    background-color: #7c3282;
-}
-
-.navbar {
-    --bs-navbar-toggler-border-color: rgb(255, 255, 255);
-}
-
-.togglerBars {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 100%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-/*----------main----------*/
-main img {
-    display: flex;
-    max-width: 100%;
-}
-
-.div__info {
-    background-color: #5d739d;
-    justify-content: center;
-}
-
-.number-dato-md {
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 6rem;
-    width: 100%;
-    text-align: right;
-}
-
-.texto-dato-md {
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: 2.2rem;
-    width: 100%;
-    text-align: left;
-    padding-top: 15px;
-    line-height: 90%;
-}
-
-.number-dato {
-    margin-bottom: 0;
-    width: 100%;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: 1.2rem;
-}
-
-.texto-dato {
-    margin-bottom: 0;
-    margin-left: 10px;
-    width: 100%;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: .75rem;
-}
-
-.div__dato {
-    padding: 0 35px;
-}
-
-/*--------fin main--------*/
-
-/*--------la-empresa------*/
-.la-empresa {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-#la-empresa h2 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-}
-
-#la-empresa .p-le {
-    width: 50%;
-    margin-right: 15px;
-}
-
-#la-empresa img {
-    width: 50%;
-    margin-right: 2rem;
-}
-
-/*------fin la-empresa------*/
-
-/*---------servicios--------*/
 .page-servicios {
-    padding: 3rem 0;
+  padding: 3rem 0;
 }
 
 .titulo {
-    font-family: 'Open Sans', sans-serif;
-    color: black;
-    font-size: 300%;
+  font-family: "Open Sans", sans-serif;
+  color: black;
+  font-size: 300%;
 }
 
 .card-color {
-    background-color: #eef5fb;
+  background-color: #eef5fb;
 }
 
 .card-title {
-    color: black;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 175%;
-    margin-bottom: 0.50rem;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 175%;
+  margin-bottom: 0.5rem;
 }
 
 .card-description {
-    color: #575756;;
-    font-weight: 500;
-    font-size: 150%;
-    font-family: 'Open Sans', sans-serif;
+  color: #575756;
+  font-weight: 500;
+  font-size: 150%;
+  font-family: "Open Sans", sans-serif;
 }
 
 .card-description-2 {
-    color: #575756;
-    font-size: 125%;
-    font-family: 'Open Sans', sans-serif;
+  color: #575756;
+  font-size: 125%;
+  font-family: "Open Sans", sans-serif;
 }
 
-/*-------fin servicios------*/
-
-/*--------sucursales--------*/
-.title-section {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 0;
-    padding-top: 1.5rem;
-    font-weight: 500;
-}
-
-.btn-title button{
-    font-size: 2rem;
-}
-
-.title-sucursal {
-    color: #ea0029;
-    width: 100%;
-    font-family: 'Open Sans',sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-weight: 700;
-    margin-bottom: 5px;
-    margin-left: 0;
-}
-
-.data-sucursal {
-    color: #000;
-    font-family: 'Raleway', sans-serif;
-    margin-bottom: 5px;
-    margin-left: 0;
-}
-
-.data-sucursal-link {
-    font-size: 1.5rem;
-    margin-bottom: 5px;
-
-}
-
-/*------fin sucursales------*/
-
-/*---------contacto---------*/
-.h3-contacto {
-    display: flex;
-    justify-content: center;
-}
-
-.p-contacto {
-    display: flex;
-    justify-content: center;
-}
-
-/*--------fin contacto--------*/
-
-/*-----------footer-----------*/
 .text-style {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 .p-footer {
-    margin-left: 0;
+  margin-left: 0;
 }
 
 .footer {
-    background-color: #9b715f;
+  background-color: #9b715f;
 }
 
-/*--------fin footer--------*/
-
-/*-------media queries-------*/
-@media screen and (max-width:1080px) {
-    .la-empresa {
-        display: block;
-    }
-
-    #la-empresa .p-le {
-        width: 100%;
-    }
-
-    .p-le p{
-        margin-right: 2rem;
-        text-align: center;
-        margin-bottom: 2rem;
-    }
-
-    #la-empresa img {
-        width: 95%;
-        margin-left: 1rem
-    }
+.menu-item {
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  color: white;
 }
+
+.menu {
+  background-color: #7c3282;
+}
+
+.navbar {
+  --bs-navbar-toggler-border-color: rgb(255, 255, 255);
+}
+
+.togglerBars {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 100%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #eef5fb;
+  font-size: 62.5%;
+}
+
+h1, h2, h3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1, h2 {
+  font-size: 4.4rem;
+}
+
+h3 {
+  font-size: 3.5rem;
+}
+
+p, li, a {
+  font-family: "Raleway", sans-serif;
+}
+
+p {
+  font-size: medium;
+  margin-left: 2rem;
+}
+
+ul {
+  margin-bottom: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

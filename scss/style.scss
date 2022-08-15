@@ -1,0 +1,41 @@
+@import './parciales/servicios';
+@import './parciales/footer';
+@import './parciales/menu';
+
+// def
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #eef5fb;
+    font-size: 62.5%;
+}
+
+h1, h2, h3 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2 {
+    font-size: 4.4rem;
+}
+
+h3 {
+    font-size: 3.5rem;
+}
+
+p, li, a {
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    font-size: medium;
+    margin-left: 2rem;
+}
+
+ul {
+    margin-bottom: 0;
+}
