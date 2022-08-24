@@ -9,3 +9,8 @@
 .footer {
     background-color: $bg-footer;
 }
+
+.footerLogo {
+    width: map-get($logo-size, logo-size-width);
+    height: map-get($logo-size, logo-size-height);
+}

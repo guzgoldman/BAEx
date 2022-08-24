@@ -42,17 +42,22 @@
 }
 
 .footer {
-  background-color: #9b715f;
+  background-color: #2D61A6;
+}
+
+.footerLogo {
+  width: 256.25px;
+  height: 67.5px;
 }
 
 .menu-item {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans";
   font-size: 17px;
-  color: white;
+  color: #F2C063;
 }
 
 .menu {
-  background-color: #7c3282;
+  background-color: #2D61A6;
 }
 
 .navbar {
@@ -61,6 +66,11 @@
 
 .togglerBars {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 100%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.logo {
+  width: 256.25px;
+  height: 67.5px;
 }
 
 * {

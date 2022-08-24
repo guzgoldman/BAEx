@@ -5,8 +5,11 @@
 }
 
 html {
-    background-color: #eef5fb;
     font-size: 62.5%;
+}
+
+body {
+    background-color: #eff4fb;
 }
 
 h1, h2, h3 {
@@ -37,77 +40,36 @@ ul {
 .menu-item {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
-    color: white;
+    color: #F2C063;
 }
 
 .menu {
-    background-color: #7c3282;
+    background-color: #2D61A6;
 }
 
 .navbar {
-    --bs-navbar-toggler-border-color: rgb(255, 255, 255);
+    --bs-navbar-toggler-border-color: #F2C063;
 }
 
 .togglerBars {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 100%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28242, 192, 99, 100%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.logo, .footerLogo {
+    width: 256.25px;
+    height: 67.5px;
 }
 
 /*----------main----------*/
 main img {
     display: flex;
-    max-width: 100%;
+    width: 100% ;
 }
 
-.div__info {
-    background-color: #5d739d;
-    justify-content: center;
+.mainDiv {
+    padding-right: 0;
+    padding-left: 0;
 }
-
-.number-dato-md {
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    font-size: 6rem;
-    width: 100%;
-    text-align: right;
-}
-
-.texto-dato-md {
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: 2.2rem;
-    width: 100%;
-    text-align: left;
-    padding-top: 15px;
-    line-height: 90%;
-}
-
-.number-dato {
-    margin-bottom: 0;
-    width: 100%;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: 1.2rem;
-}
-
-.texto-dato {
-    margin-bottom: 0;
-    margin-left: 10px;
-    width: 100%;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 500;
-    font-size: .75rem;
-}
-
-.div__dato {
-    padding: 0 35px;
-}
-
-/*--------fin main--------*/
-
 /*--------la-empresa------*/
 .la-empresa {
     display: flex;
@@ -128,9 +90,13 @@ main img {
     margin-right: 15px;
 }
 
+.p-le p {
+    margin-left: 0;
+}
+
 #la-empresa img {
     width: 50%;
-    margin-right: 2rem;
+  
 }
 
 /*------fin la-empresa------*/
@@ -147,7 +113,7 @@ main img {
 }
 
 .card-color {
-    background-color: #eef5fb;
+    background-color: #DFE9F6;
 }
 
 .card-title {
@@ -180,6 +146,7 @@ main img {
     margin-bottom: 0;
     padding-top: 1.5rem;
     font-weight: 500;
+    color: #E29A12;
 }
 
 .btn-title button{
@@ -187,7 +154,7 @@ main img {
 }
 
 .title-sucursal {
-    color: #ea0029;
+    color: #2D61A6;
     width: 100%;
     font-family: 'Open Sans',sans-serif;
     font-weight: 400;
@@ -235,7 +202,7 @@ main img {
 }
 
 .footer {
-    background-color: #9b715f;
+    background-color: #2D61A6;
 }
 
 /*--------fin footer--------*/
@@ -251,13 +218,12 @@ main img {
     }
 
     .p-le p{
-        margin-right: 2rem;
         text-align: center;
         margin-bottom: 2rem;
+        margin-left: 0;
     }
 
     #la-empresa img {
-        width: 95%;
-        margin-left: 1rem
+        width: 100%;
     }
 }
