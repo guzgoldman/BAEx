@@ -40,15 +40,19 @@ ul {
 .menu-item {
     font-family: 'Open Sans', sans-serif;
     font-size: 17px;
-    color: #F2C063;
+    color: #ffd88f;
 }
 
 .menu {
     background-color: #2D61A6;
 }
 
+.navbar-nav {
+    --bs-nav-link-hover-color: #ffffff;
+}
+
 .navbar {
-    --bs-navbar-toggler-border-color: #F2C063;
+    --bs-navbar-toggler-border-color: #ffd88f;
 }
 
 .togglerBars {
@@ -146,7 +150,7 @@ main img {
     margin-bottom: 0;
     padding-top: 1.5rem;
     font-weight: 500;
-    color: #E29A12;
+    color: #b67803;
 }
 
 .btn-title button{
@@ -190,15 +194,50 @@ main img {
     justify-content: center;
 }
 
+.consultas {
+    padding: 8% 70px 12%;
+    height: 100%;
+}
+
+.title-consulta {
+    font-size: 2rem;
+    font-family: "Open Sans",sans-serif;
+    color: black;
+}
+
+.text-obligatorios {
+    font-size: 1.6rem;
+}
+
+.input-consulta {
+    font-size: 1.6rem;
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+}
+
+.input-consulta {
+    width: 100%;
+    font-weight: 400;
+    background-color: transparent;
+    border: 0;
+    border-bottom: 1px solid black;
+    color: black;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
 /*--------fin contacto--------*/
 
 /*-----------footer-----------*/
 .text-style {
     font-size: 15px;
+    color: #ffd88f;
+    margin-left: 0;
 }
 
 .p-footer {
     margin-left: 0;
+    color: #ffd88f;
 }
 
 .footer {
@@ -225,5 +264,31 @@ main img {
 
     #la-empresa img {
         width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-div p {
+        margin-left: 0;
+    }
+
+    .footerRedes {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .footer-div p {
+        margin-left: 0;
+    }
+
+    .footerRedes {
+        justify-content: flex-start;
     }
 }

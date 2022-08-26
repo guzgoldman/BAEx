@@ -1,3 +1,30 @@
+.menu-item {
+  font-family: "Open Sans";
+  font-size: 17px;
+  color: #ffd88f;
+}
+
+.menu {
+  background-color: #2D61A6;
+}
+
+.navbar {
+  --bs-navbar-toggler-border-color: #ffd88f;
+}
+
+.navbar-nav {
+  --bs-nav-link-hover-color: #ffffff;
+}
+
+.togglerBars {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 216, 143, 100%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.logo {
+  width: 256.25px;
+  height: 67.5px;
+}
+
 .page-servicios {
   padding: 3rem 0;
 }
@@ -9,7 +36,7 @@
 }
 
 .card-color {
-  background-color: #eef5fb;
+  background-color: #DFE9F6;
 }
 
 .card-title {
@@ -35,10 +62,13 @@
 
 .text-style {
   font-size: 15px;
+  color: #ffd88f;
+  margin-left: 0;
 }
 
 .p-footer {
   margin-left: 0;
+  color: #ffd88f;
 }
 
 .footer {
@@ -50,29 +80,43 @@
   height: 67.5px;
 }
 
-.menu-item {
-  font-family: "Open Sans";
-  font-size: 17px;
-  color: #F2C063;
+@media screen and (max-width: 1080px) {
+  .la-empresa {
+    display: block;
+  }
+  #la-empresa .p-le {
+    width: 100%;
+  }
+  .p-le p {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 0;
+  }
+  #la-empresa img {
+    width: 100%;
+  }
 }
-
-.menu {
-  background-color: #2D61A6;
+@media screen and (max-width: 768px) {
+  .footer-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-div p {
+    margin-left: 0;
+  }
+  .footerRedes {
+    justify-content: center;
+  }
 }
-
-.navbar {
-  --bs-navbar-toggler-border-color: rgb(255, 255, 255);
+@media screen and (min-width: 769px) {
+  .footer-div p {
+    margin-left: 0;
+  }
+  .footerRedes {
+    justify-content: flex-start;
+  }
 }
-
-.togglerBars {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 100%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-.logo {
-  width: 256.25px;
-  height: 67.5px;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -80,7 +124,6 @@
 }
 
 html {
-  background-color: #eef5fb;
   font-size: 62.5%;
 }
 
@@ -107,6 +150,10 @@ p {
 
 ul {
   margin-bottom: 0;
+}
+
+body {
+  background-color: #eff4fb;
 }
 
 /*# sourceMappingURL=style.css.map */
