@@ -249,5 +249,5 @@
     "yargs": "^17.5.1",
     "yargs-parser": "^20.2.9"
   },
-  "description": ""
+  "description": "23 de Agosto de 2022:\r - Se agregaron etiquetas meta de keywords y description en cada una de las páginas del sitio.\r - Se agregó el atributo ALT a todas las etiquetas \"img\" de todo el sitio\r - Se crearon mapas en SASS que fueron aplicados al archivo style.css, el cual solo está conectado con la página \"Servicios\""
 }
